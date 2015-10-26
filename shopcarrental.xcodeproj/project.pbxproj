@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		795A1B9F1BDEF3CA00916A58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795A1B9E1BDEF3CA00916A58 /* AppDelegate.swift */; };
+		795A1BA11BDEF3CA00916A58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795A1BA01BDEF3CA00916A58 /* ViewController.swift */; };
+		795A1BA41BDEF3CA00916A58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795A1BA21BDEF3CA00916A58 /* Main.storyboard */; };
+		795A1BA61BDEF3CA00916A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 795A1BA51BDEF3CA00916A58 /* Assets.xcassets */; };
+		795A1BA91BDEF3CA00916A58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795A1BA71BDEF3CA00916A58 /* LaunchScreen.storyboard */; };
+		795A1BB41BDEF3CA00916A58 /* shopcarrentalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795A1BB31BDEF3CA00916A58 /* shopcarrentalTests.swift */; };
+		795A1BBF1BDEF3CA00916A58 /* shopcarrentalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795A1BBE1BDEF3CA00916A58 /* shopcarrentalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		795A1BB01BDEF3CA00916A58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 795A1B931BDEF3CA00916A58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 795A1B9A1BDEF3CA00916A58;
+			remoteInfo = shopcarrental;
+		};
+		795A1BBB1BDEF3CA00916A58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 795A1B931BDEF3CA00916A58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 795A1B9A1BDEF3CA00916A58;
+			remoteInfo = shopcarrental;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		795A1B9B1BDEF3CA00916A58 /* shopcarrental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shopcarrental.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		795A1B9E1BDEF3CA00916A58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		795A1BA01BDEF3CA00916A58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		795A1BA31BDEF3CA00916A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		795A1BA51BDEF3CA00916A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		795A1BA81BDEF3CA00916A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		795A1BAA1BDEF3CA00916A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		795A1BAF1BDEF3CA00916A58 /* shopcarrentalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shopcarrentalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		795A1BB31BDEF3CA00916A58 /* shopcarrentalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopcarrentalTests.swift; sourceTree = "<group>"; };
+		795A1BB51BDEF3CA00916A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		795A1BBA1BDEF3CA00916A58 /* shopcarrentalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shopcarrentalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		795A1BBE1BDEF3CA00916A58 /* shopcarrentalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopcarrentalUITests.swift; sourceTree = "<group>"; };
+		795A1BC01BDEF3CA00916A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		795A1B981BDEF3CA00916A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		795A1BAC1BDEF3CA00916A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		795A1BB71BDEF3CA00916A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		795A1B921BDEF3CA00916A58 = {
+			isa = PBXGroup;
+			children = (
+				795A1B9D1BDEF3CA00916A58 /* shopcarrental */,
+				795A1BB21BDEF3CA00916A58 /* shopcarrentalTests */,
+				795A1BBD1BDEF3CA00916A58 /* shopcarrentalUITests */,
+				795A1B9C1BDEF3CA00916A58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		795A1B9C1BDEF3CA00916A58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				795A1B9B1BDEF3CA00916A58 /* shopcarrental.app */,
+				795A1BAF1BDEF3CA00916A58 /* shopcarrentalTests.xctest */,
+				795A1BBA1BDEF3CA00916A58 /* shopcarrentalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		795A1B9D1BDEF3CA00916A58 /* shopcarrental */ = {
+			isa = PBXGroup;
+			children = (
+				795A1B9E1BDEF3CA00916A58 /* AppDelegate.swift */,
+				795A1BA01BDEF3CA00916A58 /* ViewController.swift */,
+				795A1BA21BDEF3CA00916A58 /* Main.storyboard */,
+				795A1BA51BDEF3CA00916A58 /* Assets.xcassets */,
+				795A1BA71BDEF3CA00916A58 /* LaunchScreen.storyboard */,
+				795A1BAA1BDEF3CA00916A58 /* Info.plist */,
+			);
+			path = shopcarrental;
+			sourceTree = "<group>";
+		};
+		795A1BB21BDEF3CA00916A58 /* shopcarrentalTests */ = {
+			isa = PBXGroup;
+			children = (
+				795A1BB31BDEF3CA00916A58 /* shopcarrentalTests.swift */,
+				795A1BB51BDEF3CA00916A58 /* Info.plist */,
+			);
+			path = shopcarrentalTests;
+			sourceTree = "<group>";
+		};
+		795A1BBD1BDEF3CA00916A58 /* shopcarrentalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				795A1BBE1BDEF3CA00916A58 /* shopcarrentalUITests.swift */,
+				795A1BC01BDEF3CA00916A58 /* Info.plist */,
+			);
+			path = shopcarrentalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		795A1B9A1BDEF3CA00916A58 /* shopcarrental */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 795A1BC31BDEF3CA00916A58 /* Build configuration list for PBXNativeTarget "shopcarrental" */;
+			buildPhases = (
+				795A1B971BDEF3CA00916A58 /* Sources */,
+				795A1B981BDEF3CA00916A58 /* Frameworks */,
+				795A1B991BDEF3CA00916A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shopcarrental;
+			productName = shopcarrental;
+			productReference = 795A1B9B1BDEF3CA00916A58 /* shopcarrental.app */;
+			productType = "com.apple.product-type.application";
+		};
+		795A1BAE1BDEF3CA00916A58 /* shopcarrentalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 795A1BC61BDEF3CA00916A58 /* Build configuration list for PBXNativeTarget "shopcarrentalTests" */;
+			buildPhases = (
+				795A1BAB1BDEF3CA00916A58 /* Sources */,
+				795A1BAC1BDEF3CA00916A58 /* Frameworks */,
+				795A1BAD1BDEF3CA00916A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				795A1BB11BDEF3CA00916A58 /* PBXTargetDependency */,
+			);
+			name = shopcarrentalTests;
+			productName = shopcarrentalTests;
+			productReference = 795A1BAF1BDEF3CA00916A58 /* shopcarrentalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		795A1BB91BDEF3CA00916A58 /* shopcarrentalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 795A1BC91BDEF3CA00916A58 /* Build configuration list for PBXNativeTarget "shopcarrentalUITests" */;
+			buildPhases = (
+				795A1BB61BDEF3CA00916A58 /* Sources */,
+				795A1BB71BDEF3CA00916A58 /* Frameworks */,
+				795A1BB81BDEF3CA00916A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				795A1BBC1BDEF3CA00916A58 /* PBXTargetDependency */,
+			);
+			name = shopcarrentalUITests;
+			productName = shopcarrentalUITests;
+			productReference = 795A1BBA1BDEF3CA00916A58 /* shopcarrentalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		795A1B931BDEF3CA00916A58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Sawyer Vaughan";
+				TargetAttributes = {
+					795A1B9A1BDEF3CA00916A58 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					795A1BAE1BDEF3CA00916A58 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 795A1B9A1BDEF3CA00916A58;
+					};
+					795A1BB91BDEF3CA00916A58 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 795A1B9A1BDEF3CA00916A58;
+					};
+				};
+			};
+			buildConfigurationList = 795A1B961BDEF3CA00916A58 /* Build configuration list for PBXProject "shopcarrental" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 795A1B921BDEF3CA00916A58;
+			productRefGroup = 795A1B9C1BDEF3CA00916A58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				795A1B9A1BDEF3CA00916A58 /* shopcarrental */,
+				795A1BAE1BDEF3CA00916A58 /* shopcarrentalTests */,
+				795A1BB91BDEF3CA00916A58 /* shopcarrentalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		795A1B991BDEF3CA00916A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				795A1BA91BDEF3CA00916A58 /* LaunchScreen.storyboard in Resources */,
+				795A1BA61BDEF3CA00916A58 /* Assets.xcassets in Resources */,
+				795A1BA41BDEF3CA00916A58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		795A1BAD1BDEF3CA00916A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		795A1BB81BDEF3CA00916A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		795A1B971BDEF3CA00916A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				795A1BA11BDEF3CA00916A58 /* ViewController.swift in Sources */,
+				795A1B9F1BDEF3CA00916A58 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		795A1BAB1BDEF3CA00916A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				795A1BB41BDEF3CA00916A58 /* shopcarrentalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		795A1BB61BDEF3CA00916A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				795A1BBF1BDEF3CA00916A58 /* shopcarrentalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		795A1BB11BDEF3CA00916A58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 795A1B9A1BDEF3CA00916A58 /* shopcarrental */;
+			targetProxy = 795A1BB01BDEF3CA00916A58 /* PBXContainerItemProxy */;
+		};
+		795A1BBC1BDEF3CA00916A58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 795A1B9A1BDEF3CA00916A58 /* shopcarrental */;
+			targetProxy = 795A1BBB1BDEF3CA00916A58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		795A1BA21BDEF3CA00916A58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				795A1BA31BDEF3CA00916A58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		795A1BA71BDEF3CA00916A58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				795A1BA81BDEF3CA00916A58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		795A1BC11BDEF3CA00916A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		795A1BC21BDEF3CA00916A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		795A1BC41BDEF3CA00916A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = shopcarrental/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sawyervaughan.shopcarrental;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		795A1BC51BDEF3CA00916A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = shopcarrental/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sawyervaughan.shopcarrental;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		795A1BC71BDEF3CA00916A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = shopcarrentalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sawyervaughan.shopcarrentalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shopcarrental.app/shopcarrental";
+			};
+			name = Debug;
+		};
+		795A1BC81BDEF3CA00916A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = shopcarrentalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sawyervaughan.shopcarrentalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shopcarrental.app/shopcarrental";
+			};
+			name = Release;
+		};
+		795A1BCA1BDEF3CA00916A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = shopcarrentalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sawyervaughan.shopcarrentalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = shopcarrental;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		795A1BCB1BDEF3CA00916A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = shopcarrentalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sawyervaughan.shopcarrentalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = shopcarrental;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		795A1B961BDEF3CA00916A58 /* Build configuration list for PBXProject "shopcarrental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				795A1BC11BDEF3CA00916A58 /* Debug */,
+				795A1BC21BDEF3CA00916A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		795A1BC31BDEF3CA00916A58 /* Build configuration list for PBXNativeTarget "shopcarrental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				795A1BC41BDEF3CA00916A58 /* Debug */,
+				795A1BC51BDEF3CA00916A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		795A1BC61BDEF3CA00916A58 /* Build configuration list for PBXNativeTarget "shopcarrentalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				795A1BC71BDEF3CA00916A58 /* Debug */,
+				795A1BC81BDEF3CA00916A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		795A1BC91BDEF3CA00916A58 /* Build configuration list for PBXNativeTarget "shopcarrentalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				795A1BCA1BDEF3CA00916A58 /* Debug */,
+				795A1BCB1BDEF3CA00916A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 795A1B931BDEF3CA00916A58 /* Project object */;
+}
