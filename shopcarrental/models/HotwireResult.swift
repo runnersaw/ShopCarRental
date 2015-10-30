@@ -9,6 +9,7 @@
 import Foundation
 
 class HotwireResult : NSObject {
+    // model class that holds data for a hotwire result
     var link : String = ""
     var subtotal : String = ""
     var total : String = ""

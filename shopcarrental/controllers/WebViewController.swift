@@ -27,10 +27,13 @@ class WebViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        // setup navigation bar
         let done = UIBarButtonItem(barButtonSystemItem: .Done, target: self, action: "done")
         self.navigationItem.rightBarButtonItem = done
         self.navigationItem.title = self.title
         
+        // create web view and load the url into the web view
         self.webView = UIWebView(frame: self.view.frame)
         let request = NSURLRequest(URL: self.url)
         self.webView.loadRequest(request)
@@ -43,6 +46,7 @@ class WebViewController: UIViewController {
     }
     
     func done() {
+        // dismiss the web view when done
         self.navigationController!.dismissViewControllerAnimated(true, completion: nil)
     }
 

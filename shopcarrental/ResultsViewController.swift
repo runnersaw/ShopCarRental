@@ -16,10 +16,12 @@ class ResultsViewController: UITableViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        // setup table view vars
         self.tableView.registerClass(HotwireResultCell.self, forCellReuseIdentifier: Strings.hotwire_cell_identifier)
         self.tableView.dataSource = self
         self.tableView.delegate = self
         
+        // setup navigation bar things
         let search = UIBarButtonItem(title: Strings.search, style: .Done, target: self, action: "search")
         self.navigationItem.rightBarButtonItem = search
         self.navigationItem.title = Strings.results_view_controller_title
@@ -31,6 +33,7 @@ class ResultsViewController: UITableViewController {
     }
     
     func search() {
+        // this is called when user clicks search in nav bar, switches to nav bar controller
         let searchController = SearchViewController(resultsController: self)
         let navController = UINavigationController(rootViewController: searchController)
         self.navigationController?.presentViewController(navController, animated: true, completion: nil)
@@ -64,7 +67,7 @@ class ResultsViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        // show a web view controller with the link
+        // show a web view controller with the link when user clicks a result
         let webController = WebViewController(title: Strings.web_view_controller_title, url: NSURL(string: self.results[indexPath.row].link)!)
         let navController = UINavigationController(rootViewController: webController)
         self.navigationController?.presentViewController(navController, animated: true, completion: nil)
@@ -81,6 +84,7 @@ class ResultsViewController: UITableViewController {
             cell = HotwireResultCell(style: .Default, reuseIdentifier: Strings.hotwire_cell_identifier)
         }
         
+        // configure the cell. this should happen whether a cell is recycled or not
         cell!.configureCell(self.results[indexPath.row], tableView: self.tableView)
         
         return cell!

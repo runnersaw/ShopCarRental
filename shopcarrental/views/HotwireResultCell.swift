@@ -22,11 +22,13 @@ class HotwireResultCell: UITableViewCell {
         
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
+        // add subviews
         self.addSubview(self.costLabel)
         self.addSubview(self.locationLabel)
         self.addSubview(self.pickupLabel)
         self.addSubview(self.dropoffLabel)
         
+        // setup default drawing variables
         self.setDrawingVars()
     }
 
@@ -35,15 +37,19 @@ class HotwireResultCell: UITableViewCell {
     }
     
     static func getHeightForResult(result: HotwireResult) -> CGFloat {
+        // For the uitableviewdelegate to know the height of the cell
         return Dimens.location_label_height + Dimens.time_label_height + 2*Dimens.result_cell_padding + Dimens.location_label_bottom_margin
     }
     
     func setDrawingVars() {
+        // setup all of the variables associated with view display
+        // setup font colors
         self.costLabel.textColor = UIColor.blackColor()
         self.locationLabel.textColor = UIColor.blackColor()
         self.pickupLabel.textColor = UIColor.blackColor()
         self.dropoffLabel.textColor = UIColor.blackColor()
         
+        // setup font sizes
         self.locationLabel.font = UIFont.systemFontOfSize(Dimens.location_label_font_size)
         self.costLabel.font = UIFont.systemFontOfSize(Dimens.location_label_font_size)
         self.pickupLabel.font = UIFont.systemFontOfSize(Dimens.time_label_font_size)
@@ -51,6 +57,7 @@ class HotwireResultCell: UITableViewCell {
     }
 
     func configureCell(result: HotwireResult, tableView: UITableView) {
+        // save the result, then build the views from that
         self.result = result
         
         setFrames(tableView.bounds)
@@ -58,6 +65,7 @@ class HotwireResultCell: UITableViewCell {
     }
     
     func setFrames(bounds: CGRect) {
+        // sets the frames for each label
         self.locationLabel.frame = CGRectMake(
             Dimens.result_cell_padding,
             Dimens.result_cell_padding,
@@ -82,7 +90,8 @@ class HotwireResultCell: UITableViewCell {
     }
     
     func setLabels() {
-        self.costLabel.text = "$"+self.result!.total
+        // sets the views for each label
+        self.costLabel.text = "$"+self.result!.total // TODO: Fix for international currencies
         self.locationLabel.text = "Location: "+self.result!.airport
         self.pickupLabel.text = self.result!.pickupDay + " " + self.result!.pickupTime
         self.dropoffLabel.text = self.result!.dropoffDay + " " + self.result!.dropoffTime

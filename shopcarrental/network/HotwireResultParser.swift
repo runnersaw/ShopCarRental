@@ -16,9 +16,9 @@ class HotwireResultParser : NSObject {
         // parse the json here
         do {
             let json = try NSJSONSerialization.JSONObjectWithData(data, options: .AllowFragments)
-            print(json)
-            if let resultsJson = json["Result"] as? Array<AnyObject> {
-                for (var i=0; i<resultsJson.count; i++) {
+            
+            if let resultsJson = json["Result"] as? Array<AnyObject> { // check if exists
+                for (var i=0; i<resultsJson.count; i++) { // iterate through
                     let result = HotwireResult()
                     let r = resultsJson[i]
                     

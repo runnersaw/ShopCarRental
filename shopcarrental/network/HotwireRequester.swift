@@ -32,7 +32,7 @@ class HotwireRequester : NSObject {
         url = url + "&enddate="+end!
         url = url + "&pickuptime="+pickup!
         url = url + "&dropofftime="+dropoff!
-        print(url)
+        
         // create the http request
         let request = NSMutableURLRequest(URL: NSURL(string: url)!)
         request.HTTPMethod = "GET"

@@ -31,9 +31,10 @@ class SearchViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        let threeThirtyDays : NSTimeInterval = 60 * 60 * 24 * 330 // 330 days from now
+        let threeThirtyDays : NSTimeInterval = 60 * 60 * 24 * 330 // 330 days from now, max distance for hotwire
         var top = Dimens.search_top_padding + Dimens.nav_bar_height // keeps track of where to put views
         
+        // creates all of the views with proper frame, then sets their text or placeholder variables
         self.locationLabel = UILabel(frame: CGRectMake(
             Dimens.search_padding,
             top,
@@ -114,8 +115,11 @@ class SearchViewController: UIViewController, UITextFieldDelegate {
     }
     
     func done() {
+        // get the dates
         let pickupDate = pickupDatePicker.date
         let dropoffDate = dropoffDatePicker.date
+        
+        // check if the input is valid
         if pickupDate.compare(dropoffDate) == .OrderedAscending && self.locationField.text != nil { // pickup date is earlier
             self.navigationController!.dismissViewControllerAnimated(true, completion: {
                 let location = self.locationField.text!
@@ -138,6 +142,7 @@ class SearchViewController: UIViewController, UITextFieldDelegate {
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
+        // make the keyboard disappear after clicking done on it
         textField.resignFirstResponder()
         return false
     }
