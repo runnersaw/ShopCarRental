@@ -44,7 +44,7 @@
 /* Begin PBXFileReference section */
 		795A1B9B1BDEF3CA00916A58 /* shopcarrental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shopcarrental.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		795A1B9E1BDEF3CA00916A58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		795A1BA01BDEF3CA00916A58 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResultsViewController.swift; path = ../ResultsViewController.swift; sourceTree = "<group>"; };
+		795A1BA01BDEF3CA00916A58 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		795A1BA51BDEF3CA00916A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		795A1BA81BDEF3CA00916A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		795A1BAA1BDEF3CA00916A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
